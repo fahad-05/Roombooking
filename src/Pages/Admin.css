@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.fan1{
+    width: 400px;
+    height: 400px;
+    margin-top: 90px;
+    animation: fan1 0.5s infinite linear;
+
+
+}
+.Admin{
+   display:flex;
+   justify-content: center;
+   background: blue;
+   height: 100vh;
+
+}
+@keyframes fan1{
+    0%{
+        transform: translate(20%);
+    transform: rotate(360deg);
+}
+}
+.fan2{
+    width: 400px;
+    height: 400px;
+    margin-top: 90px;
+}

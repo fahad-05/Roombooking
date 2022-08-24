@@ -1,0 +1,28 @@
+.checkin1{
+    
+    width: 90%;
+    /* height: 20px; */
+    background: white;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 40px;
+}
+
+.buttonf{
+    position: absolute;
+    bottom: -12px;
+    width: 80px;
+    height: 23px;
+    background: orange;
+    border-radius: 3px;
+    color: white;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.buttond{
+    position: relative;
+}

@@ -1,0 +1,26 @@
+.button{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.primary{
+    background: orange;
+    color: #F0FFFF;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+
+    border-color: orange;
+}
+.secondary{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 100px;    
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}

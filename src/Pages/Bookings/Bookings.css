@@ -1,0 +1,68 @@
+.bookingscontainer8{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 233, 233);
+    
+}
+.booking8{
+font-size: 30px;
+font-weight: bolder;
+position: absolute;
+left: 50px;
+top: 60px;
+}
+.headbook8{
+    width: 100%;
+    height: 90px;
+    /* position: fixed; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+}
+.outbooking8{
+    margin-top: 20px;
+    height: 29px;
+    width: 100px;  
+    margin-right: 10px;
+}
+.heading8{
+ 
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.bookings-input8{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+}
+select{
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+}
+.tablecontainer8{
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    margin-top: 150px;
+}
+
+
+.bottonsearch8{
+   
+    padding: 20px 15px;
+}
+.booking-details8{
+    padding: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+}

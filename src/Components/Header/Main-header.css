@@ -1,0 +1,77 @@
+.header{
+    
+    background: 	#D8D8D8;
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-areas: 'suitcase bookings homepage room booking empty empty empty main-avatar main-avatar';
+    /* width: 100%;
+    height: 20%;
+    background: blue; */
+}
+
+
+.suitcase{
+    display: flex;
+    justify-content: center;
+}
+   
+ .suitcaseimg{   
+    width: 40px;
+    height: 50px;
+}
+
+.avatar{
+    display: flex;
+}
+.avatarimg{
+        width: 29px;
+        height: 28px;
+
+}
+.loginlogo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.loginlogoimg{
+    transform: rotate(180deg);
+    filter: invert(100%) brightness(40%) sepia(100%) hue-rotate(715deg) saturate(1000%) contrast(0.8);
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 15px;
+
+}
+
+
+
+
+.suitcase { grid-area: suitcase; }
+.bookings { grid-area: bookings; }
+.homepage { grid-area: homepage; }
+.room {
+     grid-area: room; 
+   
+    }
+.booking { grid-area: booking; }
+.empty { grid-area: empty; }
+
+.main-avatar{
+    grid-area: main-avatar;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    }
+.administrator{
+    padding-top: 3px;
+}
+
+.box {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* margin-top: 30px; */
+  }

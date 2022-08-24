@@ -1,0 +1,87 @@
+.con{
+    width: 100%;
+    background:#F0FFFF;
+    height: 99vh;
+}
+.input-container{
+    margin: 10px;
+   
+   
+}
+.cont1{
+    margin-left: 30%;
+    position: relative;
+    border:1px solid black;
+    background: #ffff;
+    width:40%;
+    height: auto;
+
+   
+}
+.i{
+    width: 100%;
+    /* width: 600px;
+    height: 25px; */
+    /* position: relative;
+    left: 36px;
+    top: 10px; */
+    /* margin-left: 40px; */
+
+}
+.newbook{
+    height: 70px;
+    background:#F0FFFF;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rom-num{
+    position: relative;
+    left: 20px;
+    top: 1px;
+    margin-bottom: 10px;
+}
+
+.divbutton{
+    position: relative;
+    left: 18px;
+}
+.broom{
+    position: absolute;
+    top: 344px;
+    left: 191px;
+}
+.btnn{
+    position: relative;
+    left: 20px;
+    top: 35px;
+    height: 30px;
+    width: 100px;
+}
+.outbutton{
+    display: flex;
+    
+}
+.linkback{
+    text-decoration: none;
+    color: orange;
+   
+}
+.back{
+    position: absolute;
+    top: 348px;
+    left: 342px;;
+  height: 30px;
+  width: 100px;
+  padding: 5px 30px;
+  margin-top: 20px;
+  
+}
+.three-button
+{
+    display: flex;
+}
+/* .divbutton{
+    margin-top: 20px;
+} */
