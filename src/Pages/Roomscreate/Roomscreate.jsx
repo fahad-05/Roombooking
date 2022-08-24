@@ -31,7 +31,7 @@ const Roomscreate = () => {
   }
   catch
   {
-    alert('ERROR_CONNECTION_TIMED');
+    alert('ERROR_CONNECTION_TIMED_OUT');
   }  }
   
   function onChange(value,key){
