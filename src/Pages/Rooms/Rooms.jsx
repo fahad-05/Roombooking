@@ -1,9 +1,36 @@
 import React from 'react'
+import { useState,useEffect } from 'react'
 import './Rooms.css'
 import Mainheader from '../../Components/Header/Mainheader'
 import Roomdetail from '../../Components/Room detail/Roomdetail'
 import { Link } from 'react-router-dom'
 const Rooms = () => {
+const [newData, setNewData] = useState([]);
+
+
+
+
+useEffect(() => {
+  const userData = async () => {
+    const response = await GetData();
+    setNewData(response);
+  };
+  userData();
+}, []);
+async function GetData() {
+  const response = await fetch("http://localhost:5243/room", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+  return response.json();
+}
+
+
+
+
+
   return (
     <>
     <Mainheader/>
@@ -17,11 +44,14 @@ const Rooms = () => {
       <div className="head3">Children Capacity</div>
       <div className="head4">Price</div>
     </div>
-    <Roomdetail a='101' b='1' c='0' d='34'/>
-    <Roomdetail a='102' b='2' c='0' d='48'/>
-    <Roomdetail a='103' b='2' c='1' d='52'/>
-    <Roomdetail a='104' b='2' c='2' d='64'/>
-    <Roomdetail a='201' b='1' c='0' d='34'/>
+    {newData.map((value, index) => (
+            <Roomdetail
+              a={value.roomno}
+              b={value.adultno}
+              c={value.childno}
+              d={value.price}
+            />
+          ))}
     </div>
     </div>
     </>

@@ -3,6 +3,7 @@ import './availableroom.css'
 import Buttonstyle from '../../Components/Buttontype/Buttonstyle'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import Mainheader from '../../Components/Header/Mainheader'
 const Availableroom = () => {
   const[display,setDisplay] = useState(false)
   const changeDisplay=()=>{
@@ -11,6 +12,7 @@ const Availableroom = () => {
   }
   return (
     <div className="con">
+      <Mainheader/>
      <div className="newbook"><h1><b>New Booking</b></h1></div>
            <div className="cont1">
       <form >
